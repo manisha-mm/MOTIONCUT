@@ -1,0 +1,129 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #f8f8f8;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url('gm.jpg');
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff; 
+    text-align: center;
+    padding: 50px 0 0;
+}
+
+h1 {
+    font-family: 'Lucida Handwriting', cursive;
+    margin: 20px 0 60px;
+}
+
+nav {
+    width: 100%;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav li {
+    flex: 1;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.2em;
+    display: block;
+    padding: 10px;
+    border: 1px solid #fff;
+    box-sizing: border-box;
+    transition: all 0.3s;
+}
+
+nav a:hover {
+    color: #cbbc79; 
+    background-color: #271506; 
+    transform: scale(1.5); 
+}
+
+section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+p {
+    font-size: 1.2em;
+    color: #666;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.highlight {
+    color: #e44d26;
+    font-weight: bold;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+}
+
+section {
+    background-image: url('nb.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 50px 20px;
+    color: #fff; 
+}
+
+section p {
+    color: #fff; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+
+.discount-image {
+    max-width: 30%; 
+    margin-top: 20px;
+}
+
+.discount-text {
+    font-size: 1.2em;
+    color: #e44d26; 
+    margin-top: 10px; 
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.discount-image {
+    max-width: 23%; 
+    
+}
+
+.discount-text {
+    font-size: 1.2em;
+    color: #e44d26; 
+    margin-top: 10px;
+}
+
+.image-row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
